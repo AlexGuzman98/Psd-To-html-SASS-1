@@ -1,85 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        
         <meta charset="UTF-8">
         <meta name'Alex' content="Tarea 10" >
-        <meta name 'Autor' content="Tarea 10">
+        <meta name 'Viewport' content="Tarea 10">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Prueba</title>
     </head>
     <body>
-        <div>
+<div class="wrapper">
+        <!--encabezado-->
+        <div id='header' class="clearfix block-border">
+        <div id= 'fotologo'>
             <a href="http://www.google.com" target="_blank"><img src="img/logo/logo.png" alt="Foto Logo"></a>
         </div>
-        <div>
-            <a href="/style.css"> HOME</a>
-            <a href="/script.js"> ABOUT US</a>
-	        <a href="/index.html"> PORTFOLIO</a>
-	        <a href="/style.css"> SERVICES</a>
-            <a href="/script.js"> BLOG</a>
-            <a href="/index.html"> CONTACT US</a>
+        <div id='nav'>
+            <a href="mailto:info@creativStudio.com" id="nav-link-email">info@creativStudio.com</a>
+            <ul id='navlista' class="clearfix" >
+                <li><a href="/style.css"> HOME</a></li>
+                <li><a href="/script.js"> ABOUT US</a></li>
+	            <li><a href="/index.html"> PORTFOLIO</a></li>
+	            <li><a href="/style.css"> SERVICES</a></li>
+                <li><a href="/script.js"> BLOG</a></li>
+                <li><a href="/index.html"> CONTACT US</a></li>
+            </ul>
         </div>
-        <hr>
-        <div>
+    </div>
+      
+
+
+        <!--portada-->
+        <div id='slider' class="block-border">
             <a href="http://www.google.com" target="_blank"><img src="img/portada/img.jpg"></a>
         </div>
-        <hr>
-        <div>
-            <a> <img src="img/iconos/arrow.png">ABOUT US</a>
+   
+        
+<!--contenido principal-->
+    <div id="mainContent" class="clearfix block-border">
+        <div class="box">
+           <h2 class="title-border-bottom">About us</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum alias asperiores ex nulla laboriosam, esse quod nihil delectus saepe voluptatem quisquam! Adipisci fuga qui velit, dicta dolore laboriosam repellendus laborum.</p>
-            <a href="http://www.wikipedia.com" target="_blank"> <img src="img/iconos/arrow.png">READ</a>
+            <a href="#" class="link-arrow"><img class="link-arrow-img" src="img/iconos/arrow.png"/>Read</a>
         </div>
-        <div>
-            <a> <img src="img/iconos/arrow.png">OUR BENEFITS</a>
-            <br>
-            <a> <img src="img/iconos/check.png">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae distinctio maxime repellendus provident earum expedita vitae voluptatem quam culpa dolorum minima explicabo, rerum exercitationem molestias tempora incidunt, vel, dignissimos magni!</a>
-            <br>
-            <a> <img src="img/iconos/check.png">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae distinctio maxime repellendus provident earum expedita vitae voluptatem quam culpa dolorum minima explicabo, rerum exercitationem molestias tempora incidunt, vel, dignissimos magni!</a>
-            <br>
-            <a> <img src="img/iconos/check.png">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae distinctio maxime repellendus provident earum expedita vitae voluptatem quam culpa dolorum minima explicabo, rerum exercitationem molestias tempora incidunt, vel, dignissimos magni!</a>
-        </div>
-        <div>
-            <a> <img src="img/iconos/arrow.png">TESTIMONIALS</a>
+        <div class="box">
+            <h2 class="title-border-bottom">Our benefits</h2>
+        <ul id='boxbenefitslist'>
+            <li>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsum sit fuga ratione neque doloribus </p>
+            </li>
+            <li>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsum sit fuga ratione neque doloribus </p>
+            </li>
+            
+            <li>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsum sit fuga ratione neque doloribus </p>
+            </li>
+        </ul>
+    </div>
+    
+        <div class="box">
+            <h2 class="title-border-bottom">Testimonials</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni molestias sequi, aut facere adipisci culpa quod reprehenderit pariatur ipsum voluptate, nihil ex architecto nostrum, eaque dignissimos cum voluptatibus corrupti odio?</p>
-            <p>Rafi, GraphicsFuel.com</p>
+            <a href="#" class="box-link">Rafi, Graphicsfuel.com</a>
         </div>
-        <hr>
-        <div>
-            <a> <img src="img/iconos/check.png">OUR PORTFOLIO</a>
-            <br>
-            <a href="http://www.google.com" target="_blank"><img src="img/paginas portfolio/portfolio1.jpg"></a>
-            <a href="http://www.google.com" target="_blank"><img src="img/paginas portfolio/portfolio2.jpg"></a>
-            <a href="http://www.google.com" target="_blank"><img src="img/paginas portfolio/portfolio3.jpg"></a>
-            <a href="http://www.google.com" target="_blank"><img src="img/paginas portfolio/portfolio4.jpg"></a>
-        </div>
-        <hr>
-        <div>
-            <a> <img src="img/iconos/check.png">BLOG UPDATES</a>
+    </div>
+       
+        <!--Portfolioo-->
+        <div id="our-portfolio" class="block-border clearfix">
+			<h2>Our Portfolio</h2>
+			<div class="box-img">
+				<a href="https://www.google.com">
+					<img src="img/paginas portfolio/portfolio1.jpg" alt="blank_">
+				</a>
+			</div>
+			<div class="box-img">
+				<a href="https://www.google.com">
+					<img src="img/paginas portfolio/portfolio2.jpg" alt="blank_">
+				</a>
+			</div>
+			<div class="box-img">
+				<a href="https://www.google.com">
+					<img src="img/paginas portfolio/portfolio3.jpg" alt="blank_">
+				</a>
+			</div>
+			<div class="box-img">
+				<a href="https://www.google.com">
+					<img src="img/paginas portfolio/portfolio4.jpg" alt="blank_">
+				</a>
+			</div>
+		</div>
+        
+
+
+
+<!--Updates-->
+<div id="blogiformation" class="clearfix">
+    <div id="blog-updates">
+            <h3>Blog updates</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem molestias neque temporibus quibusdam. Reiciendis blanditiis quod dicta accusantium nesciunt ipsum, eveniet atque facilis distinctio? Consequuntur unde numquam quia earum!</p>
         </div>
-        <hr>
-        <div>
-            <a> <img src="img/iconos/check.png">CONNECT WITH US</a>
-            <br>
-            <a href="http://www.google.com" target="_blank"><img src="img/icono redes/icono-gray.png"></a>
-
-            <a href="http://www.google.com" target="_blank"><img src="img/icono redes/icono-orange.png"></a>
-
-            <a href="http://www.twitter.com" target="_blank"><img src="img/icono redes/icono-tw.png"></a>
-
-            <a href="http://www.faceboo..com" target="_blank"><img src="img/icono redes/iocno-blue.png"></a>
+        
+    <div id='connect-with-us'>
+        <div id="connect-with-us">
+            <h3>Connect with us</h3>
+            <div>
+                <a href="#" target="_blank"><img src="img/icono redes/iocno-blue.png"></a>
+                <a href="#" target="_blank"><img src="img/icono redes/icono-tw.png"></a>
+                <a href="#" target="_blank"><img src="img/icono redes/icono-gray.png"></a>
+                <a href="#" target="_blank"><img src="img/icono redes/icono-orange.png"></a>
+            </div>
         </div>
+    </div>
+</div>
+
+
+
+<!--footer-->
+    <div id="footer">
+      <div class='wrapper'>
         <div>
-            <a href="/" target="_blank">Home</a>
-            <a href="/" target="_blank">About Us</a>
-            <a href="/" target="_blank">Portfolio</a>
-            <a href="/" target="_blank">Services</a>
-            <a href="/" target="_blank">Blog</a>
-            <a href="/" target="_blank">Contact Us</a>
+            <ul id = 'footerlista' class='clearfix'>
+                <li><a href="/" target="_blank"> Home</a></li>
+                <li><a href="/" target="_blank"> About Us</a></li>
+                <li><a href="/" target="_blank"> Portfolio</a></li>
+                <li><a href="/" target="_blank"> Services</a></li>
+                <li> <a href="/" target="_blank"> Blog</a></li>
+                <li><a href="/" target="_blank"> Contact Us</a></li>
+            </ul>
+                <p>© 2010 CreativeStudio. All Rights Reserved</p>
 
-            <p>© 2010 CreativeStudio. All Rights Reserved</p>
-
-            <a href="http://www.google.com" target="_blank"><img src="img/logo/logo.png" alt="Foto Logo"></a>
+        
         </div>
-    </body>
+        <a href="http://www.google.com" target="_blank"><img src="img/logo/logo.png" alt="Foto Logo" class='footerlogo'></a>
+     </div>
+   </div>  
+</body>
 </html>
