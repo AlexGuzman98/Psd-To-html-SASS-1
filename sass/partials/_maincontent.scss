@@ -1,0 +1,42 @@
+.box{
+	width: 280px;
+	float: left;
+}
+
+.box + .box{
+	margin-left: 60px;
+}
+
+.box-link{
+	color: #090909;
+	font-style: italic;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+
+.box-img{
+	width: 214.5px;
+	float: left;
+	background-color: red;
+}
+
+.box-img a, .box-img img{
+	display: block;
+}
+
+.box-img + .box-img{
+	margin-left: 34px;
+}
+
+
+#blog-updates{
+	width: 660px;
+	float: left;
+	margin-right: 80px;
+}
+
+#connect-with-us{
+	width: 220px;
+	float: right;
+}

@@ -1,0 +1,42 @@
+#footer{
+	background-color: #e2e2e2;
+	padding: 30px 0px;
+}
+#footer .wrapper{
+	position: $position2;
+}
+
+#footer p{
+	margin-bottom: 0;
+}
+
+#footerlista {
+	list-style: none;
+	margin: $margin;
+	padding: $padding;
+}
+
+#footerlista li{
+	float: left;
+}
+
+#footerlista li + li::before{
+	content: "|";
+	color: #5d5d5d;
+}
+
+#footerlista li + li{
+	margin-left: 6px;
+}
+
+#footerlista a{
+	color: #5d5d5d;
+	font-size: 12px;
+}
+
+.footerlogo{
+	height: 64px;
+	position: $position;
+	right: 0;
+	top: -8px;
+}

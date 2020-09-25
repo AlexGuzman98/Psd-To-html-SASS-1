@@ -1,0 +1,62 @@
+#fotologo {
+    float: left;
+    width: 183px; 
+  }
+  
+  #nav {
+    float: right;
+    width: 655px;
+    position: $position2; 
+  }
+  
+  #nav-link-email {
+    font-size: 13px;
+    color: #999898;
+    text-decoration: $none;
+    position: $position;
+    top: 0;
+    right: 0; 
+  }
+  
+  #navlista {
+    list-style: $none;
+    margin: 45px 0 0 0;
+    padding: 0; 
+  }
+  
+  #navlista li {
+    float: left; 
+  }
+  
+  #navlista li:first-child {
+    margin-left: 0; 
+  }
+  
+  .remove-ml {
+    margin-left: 0; 
+  }
+  
+  #navlista li + li {
+    margin-left: 64px; 
+  }
+  
+  #navlista a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fe9b00;
+    text-decoration: $none;
+    text-transform: $text-transform; 
+  }
+  
+  #boxbenefitslist {
+    list-style: $none;
+    margin: $margin;
+    padding: 0; 
+  }
+  
+  #boxbenefitslist li {
+    padding-left: 30px;
+    background-image: url("../img/iconos/check.png");
+    background-repeat: no-repeat;
+    background-position: top left; 
+  }

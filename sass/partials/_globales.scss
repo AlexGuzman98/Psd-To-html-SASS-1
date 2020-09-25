@@ -1,0 +1,31 @@
+body{
+	font-family: $family;
+	border-top: 17px solid $color;
+	margin: $margin;
+	
+}
+
+h2{
+	font-size: 18px;
+	padding-left: 30px;
+	background-position: 0 7px;
+}
+
+h3{
+	font-size: 12px;
+	padding-left: 23px;
+	background-size: 8px;
+	background-position: 0 5px;
+}
+
+ h2,h3{
+	@include propiedadesH;
+	color: $color;
+	
+}
+
+p{
+	color: $color2;
+	font-size: 12px;
+	line-height: 15px;
+}
