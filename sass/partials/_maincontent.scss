@@ -1,11 +1,12 @@
 .box{
 	width: 280px;
 	float: left;
+	+.box{
+		margin-left: 60px;
+	}
 }
 
-.box + .box{
-	margin-left: 60px;
-}
+
 
 .box-link{
 	color: #090909;
@@ -14,20 +15,24 @@
 	text-decoration: none;
 }
 
-
+//Nesting
 .box-img{
 	width: 214.5px;
 	float: left;
 	background-color: red;
+	a {
+		display: block;
+	}
+	img {
+		display: block;
+	}
+	+.box-img{
+		margin-left: 34px;
+	}
 }
 
-.box-img a, .box-img img{
-	display: block;
-}
 
-.box-img + .box-img{
-	margin-left: 34px;
-}
+
 
 
 #blog-updates{
