@@ -3,11 +3,13 @@
 // 
 
 @media (max-width:1023px){
-    #nav-list {
+    #navlista {
         display: none;
     }
     .nav-link-menu{
-        display: none;
+        display: block;
+        margin-top: 45px;
+        text-align: right;
       }
       
 }

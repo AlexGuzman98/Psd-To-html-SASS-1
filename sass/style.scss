@@ -1,11 +1,17 @@
-@import "partials/mixins";
-@import "breakpoint/all";
-@import "partials/VarPartials";
+// Configuraciones
+@import "config/mixin";
+@import "config/setting";
+
+
+// Partes
 @import "partials/globales";
 @import "partials/helpers";
 @import "partials/header";
 @import "partials/maincontent";
 @import "partials/footer";
 
+// Breakpoint
+
+@import "breakpoint/all";
 
 

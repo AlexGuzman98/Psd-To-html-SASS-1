@@ -1,7 +1,8 @@
-@mixin  propiedadesh {
+@mixin propiedades {
 	text-transform: uppercase;
 	color: $color;
 	padding-bottom: 12px;
 	background-image: url('../img/iconos/arrow.png');
 	background-repeat: $background-repeat;  
-}
+	
+}  

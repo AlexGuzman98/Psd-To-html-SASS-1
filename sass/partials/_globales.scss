@@ -1,25 +1,25 @@
 body{
-	font-family: $family;
+	font-family:  $family;
 	border-top: 17px solid $color;
 	margin: $margin;
 	
 }
 
 h2{
-	font-size: 18px;
+	font-size: 1.125rem;
 	padding-left: 30px;
 	background-position: 0 7px;
 }
 
 h3{
-	font-size: 12px;
+	font-size: 0.75rem;
 	padding-left: 23px;
 	background-size: 8px;
 	background-position: 0 5px;
 }
 
  h2,h3{
-	@include propiedadesh;
+	@include propiedades;
 	color: $color;
 }
 
