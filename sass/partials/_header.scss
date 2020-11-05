@@ -18,7 +18,7 @@
     top: 0;
     right: 0; 
   }
-  
+
   #navlista {
     list-style: $none;
     margin: 45px 0 0 0;
@@ -47,6 +47,9 @@
     color: #fe9b00;
     text-decoration: $none;
     text-transform: $text-transform; 
+  }
+  .nav-link-menu{
+    display: none;
   }
   
   #boxbenefitslist {
