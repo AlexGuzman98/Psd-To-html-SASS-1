@@ -1,8 +1,8 @@
 .box{
-	width: 280px;
+	width: 29%;
 	float: left;
 	+.box{
-		margin-left: 60px;
+		margin-left: 6.25%;
 	}
 }
 
@@ -17,31 +17,31 @@
 
 //Nesting
 .box-img{
-	width: 214.5px;
+	width: 22%;
 	float: left;
-	background-color: red;
 	a {
 		display: block;
 	}
 	img {
 		display: block;
+		max-width: 100%;
+		width: 100%;
 	}
 	+.box-img{
-		margin-left: 34px;
+		margin-left: 3.5%;
+		max-width: 100%;
 	}
+	
 }
 
-
-
-
-
 #blog-updates{
-	width: 660px;
+	width: 68%;
 	float: left;
 	margin-right: 80px;
 }
 
 #connect-with-us{
-	width: 220px;
+	max-width: 100%;
+	width: 23%;
 	float: right;
 }

@@ -1,11 +1,12 @@
+// Valor / Parent * 100 
 #fotologo {
     float: left;
-    width: 183px; 
+    width: 19%; 
   }
   
   #nav {
     float: right;
-    width: 655px;
+    width: 68%;
     position: $position2; 
   }
   
@@ -59,4 +60,10 @@
     background-image: url("../img/iconos/check.png");
     background-repeat: no-repeat;
     background-position: top left; 
+  }
+  #slider{
+    img{
+      max-width: 100%;
+      width: 100%;
+    }
   }

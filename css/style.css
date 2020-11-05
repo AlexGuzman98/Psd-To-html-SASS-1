@@ -19,7 +19,8 @@ h2, h3 {
   color: #090909;
   padding-bottom: 12px;
   background-image: url("../img/iconos/arrow.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  color: #090909; }
 
 p {
   color: #5d5d5d;
@@ -27,7 +28,7 @@ p {
   line-height: 15px; }
 
 .wrapper {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto; }
 
 .title-border-bottom {
@@ -62,11 +63,11 @@ p {
 
 #fotologo {
   float: left;
-  width: 183px; }
+  width: 19%; }
 
 #nav {
   float: right;
-  width: 655px;
+  width: 68%;
   position: relative; }
 
 #nav-link-email {
@@ -112,12 +113,15 @@ p {
   background-repeat: no-repeat;
   background-position: top left; }
 
-.box {
-  width: 280px;
-  float: left; }
+#slider img {
+  max-width: 100%;
+  width: 100%; }
 
-.box + .box {
-  margin-left: 60px; }
+.box {
+  width: 29%;
+  float: left; }
+  .box + .box {
+    margin-left: 6.25%; }
 
 .box-link {
   color: #090909;
@@ -126,23 +130,26 @@ p {
   text-decoration: none; }
 
 .box-img {
-  width: 214.5px;
-  float: left;
-  background-color: red; }
-
-.box-img a, .box-img img {
-  display: block; }
-
-.box-img + .box-img {
-  margin-left: 34px; }
+  width: 22%;
+  float: left; }
+  .box-img a {
+    display: block; }
+  .box-img img {
+    display: block;
+    max-width: 100%;
+    width: 100%; }
+  .box-img + .box-img {
+    margin-left: 3.5%;
+    max-width: 100%; }
 
 #blog-updates {
-  width: 660px;
+  width: 68%;
   float: left;
   margin-right: 80px; }
 
 #connect-with-us {
-  width: 220px;
+  max-width: 100%;
+  width: 23%;
   float: right; }
 
 #footer {
