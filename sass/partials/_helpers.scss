@@ -11,7 +11,7 @@
   .clearfix::after {
     content: "";
     clear: both;
-    display: $display; 
+    display: $display-t; 
   }
   
   .block-border {

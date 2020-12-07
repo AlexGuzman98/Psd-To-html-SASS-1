@@ -1,15 +1,62 @@
 // 
 // Styles Tablet
 // 
+@media(max-width: 1023px){
 
-@media (max-width:1023px){
-    #navlista {
-        display: none;
-    }
-    .nav-link-menu{
-        display: block;
-        margin-top: 45px;
-        text-align: right;
-      }
-      
+	// General
+	.wrapper.space-tablet{ 
+		> div{
+			padding: 20px 0;
+		}
+	}
+
+	// Nav
+	#navlista{
+		display: none;
+	}
+	.nav-link-menu{
+		text-align: right;
+		margin-top: 45px;
+		display: block;
+	}
+
+	/* Main content */
+
+	.box{
+		width: 100%;
+	}
+
+	.box + .box{
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	/* Our Portfolio */
+	.box-img{
+		width: 48%;
+		padding: 1%;
+	}
+
+	.box-img + .box-img{
+		margin-left: 0;
+	}
+
+	/* Blog */
+	#blog-updates{
+		width: 100%;
+		margin-right: 0;
+		float: none;
+	}
+
+	#connect-with-us{
+		width: 100%;
+		float: none;
+	}
+
+	/* Footer */
+	.footerlogo{
+		position: static;
+		margin-top: 15px;
+	}
+
 }

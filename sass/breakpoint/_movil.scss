@@ -1,7 +1,14 @@
 // 
 // Styles Movil
 // 
+@media(max-width: 767px){
+	.box-img{
+		width: 100%;
+		padding: 0;
+		float: none;
+	}
 
-@media (max-width:767px){
-   
+	.box-img + .box-img{
+		margin-top: 15px;
+	}
 }

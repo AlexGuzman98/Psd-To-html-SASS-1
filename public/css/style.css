@@ -193,9 +193,43 @@ p {
   top: -8px; }
 
 @media (max-width: 1023px) {
+  .wrapper.space-tablet > div {
+    padding: 20px 0; }
   #navlista {
     display: none; }
   .nav-link-menu {
-    display: block;
+    text-align: right;
     margin-top: 45px;
-    text-align: right; } }
+    display: block; }
+  /* Main content */
+  .box {
+    width: 100%; }
+  .box + .box {
+    margin-left: 0;
+    margin-top: 15px; }
+  /* Our Portfolio */
+  .box-img {
+    width: 48%;
+    padding: 1%; }
+  .box-img + .box-img {
+    margin-left: 0; }
+  /* Blog */
+  #blog-updates {
+    width: 100%;
+    margin-right: 0;
+    float: none; }
+  #connect-with-us {
+    width: 100%;
+    float: none; }
+  /* Footer */
+  .footerlogo {
+    position: static;
+    margin-top: 15px; } }
+
+@media (max-width: 767px) {
+  .box-img {
+    width: 100%;
+    padding: 0;
+    float: none; }
+  .box-img + .box-img {
+    margin-top: 15px; } }
